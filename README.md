@@ -3,7 +3,7 @@
 
 This prototype supercedes https://llc-prototypes.herokuapp.com/ and https://landreg-llc.herokuapp.com/
 
-This prototype is used to test new features aimed at enhancing the Local Land Charge data migration services that are used by HMLR staff and Local Authorities.
+This prototype is used to test new features aimed at enhancing the internal Local Land Charge data migration services that are used by HMLR staff and Local Authorities.
 
 If you're looking for prototypes for the 'front end' Local Land Charge services used by the general public and Public Search Companies, you can find them here: [LLC Prototype](https://github.com/LandRegistry/llc-prototype)
 
