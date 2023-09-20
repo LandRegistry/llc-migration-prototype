@@ -1,0 +1,348 @@
+
+
+.govspeak .mc-chart,
+.gem-c-govspeak .mc-chart {
+    font-size: 16px;
+    display: table;
+    width: 100%;
+    border-spacing: 0 5px;
+    border: 1px solid #fff;
+    padding: 16px 0;
+    position: relative;
+    margin-bottom: 16px
+}
+
+.govspeak .mc-chart .mc-caption,
+.gem-c-govspeak .mc-chart .mc-caption {
+    display: table-caption;
+    font-size: 16px;
+    text-align: center;
+    caption-side: top;
+    margin: 16px 0
+}
+
+.govspeak .mc-chart .mc-thead,
+.gem-c-govspeak .mc-chart .mc-thead {
+    background-color: #fff;
+    display: table-header-group;
+    padding: 5px;
+    border: 1px solid #fff
+}
+
+.govspeak .mc-chart .mc-thead .mc-th,
+.gem-c-govspeak .mc-chart .mc-thead .mc-th {
+    display: none
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-header,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-header {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 100%;
+    padding-left: 5px;
+    border-left: 16px solid;
+    text-align: left;
+    font-weight: normal;
+    width: 100%
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-header:last-child,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-header:last-child {
+    margin-bottom: 0
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-1,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-1 {
+    border-left-color: #12436d
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-2,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-2 {
+    border-left-color: #28a197
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-3,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-3 {
+    border-left-color: #801650
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-4,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-4 {
+    border-left-color: #f46a25
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-5,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-5 {
+    border-left-color: #3d3d3d
+}
+
+.govspeak .mc-chart .mc-thead .mc-key-6,
+.gem-c-govspeak .mc-chart .mc-thead .mc-key-6 {
+    border-left-color: #a285d1
+}
+
+.govspeak .mc-chart.right-key .mc-thead,
+.govspeak .mc-chart.left-key .mc-thead,
+.gem-c-govspeak .mc-chart.right-key .mc-thead,
+.gem-c-govspeak .mc-chart.left-key .mc-thead {
+    position: absolute;
+    top: 100px
+}
+
+.govspeak .mc-chart.right-key .mc-thead .mc-key-header,
+.govspeak .mc-chart.left-key .mc-thead .mc-key-header,
+.gem-c-govspeak .mc-chart.right-key .mc-thead .mc-key-header,
+.gem-c-govspeak .mc-chart.left-key .mc-thead .mc-key-header {
+    margin-left: 0
+}
+
+.govspeak .mc-chart.right-key .mc-thead,
+.gem-c-govspeak .mc-chart.right-key .mc-thead {
+    right: 26px
+}
+
+.govspeak .mc-chart.left-key .mc-thead,
+.gem-c-govspeak .mc-chart.left-key .mc-thead {
+    left: 26px
+}
+
+.govspeak .mc-chart.no-key .mc-thead,
+.gem-c-govspeak .mc-chart.no-key .mc-thead {
+    display: none
+}
+
+.govspeak .mc-chart .mc-tbody,
+.gem-c-govspeak .mc-chart .mc-tbody {
+    display: table-row-group
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr {
+    display: table-row
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell,
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell {
+    padding-right: 5px;
+    margin-right: 1px;
+    box-sizing: border-box;
+    border: 0 solid
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-cell {
+    display: block;
+    text-align: left;
+    padding: 8px 0;
+    margin-bottom: 1px;
+    color: #fff;
+    text-indent: 8px
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-1,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-1 {
+    background-color: #12436d;
+    color: #fff
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-2,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-2 {
+    background-color: #28a197;
+    color: #fff
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-3,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-3 {
+    background-color: #801650;
+    color: #fff
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-4,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-4 {
+    background-color: #f46a25;
+    color: #0b0c0c
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-5,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-5 {
+    background-color: #3d3d3d;
+    color: #fff
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-6,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-6 {
+    background-color: #a285d1;
+    color: #0b0c0c
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-negative,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-bar-negative {
+    text-align: right;
+    padding-right: 8px
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-value-overflow,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-value-overflow {
+    text-indent: -99999px !important
+}
+
+.govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell,
+.gem-c-govspeak .mc-chart .mc-tbody .mc-tr .mc-key-cell {
+    width: 40%;
+    text-indent: 26px;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.govspeak .mc-chart.mc-stacked .mc-stacked-header,
+.gem-c-govspeak .mc-chart.mc-stacked .mc-stacked-header {
+    display: none
+}
+
+.govspeak .mc-chart.mc-stacked .mc-th:nth-last-child(2),
+.gem-c-govspeak .mc-chart.mc-stacked .mc-th:nth-last-child(2) {
+    margin-bottom: 0
+}
+
+.govspeak .mc-chart.mc-stacked .mc-stacked-total,
+.gem-c-govspeak .mc-chart.mc-stacked .mc-stacked-total {
+    padding: 8px 0;
+    background-color: transparent !important;
+    color: #0b0c0c;
+    display: inline-block;
+    text-indent: 5px
+}
+
+.govspeak .mc-chart.mc-stacked .mc-tbody .mc-bar-cell,
+.gem-c-govspeak .mc-chart.mc-stacked .mc-tbody .mc-bar-cell {
+    display: inline-block
+}
+
+.govspeak .mc-chart.compact .mc-td.mc-bar-cell,
+.gem-c-govspeak .mc-chart.compact .mc-td.mc-bar-cell {
+    font-size: 12px;
+    text-indent: 2px;
+    padding: 0
+}
+
+.govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-1,
+.gem-c-govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-1 {
+    background-color: #12436d
+}
+
+.govspeak .mc-chart .mc-tr .mc-th.mc-key-1,
+.gem-c-govspeak .mc-chart .mc-tr .mc-th.mc-key-1 {
+    border-left-color: #12436d
+}
+
+.govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-2,
+.gem-c-govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-2 {
+    background-color: #28a197
+}
+
+.govspeak .mc-chart .mc-tr .mc-th.mc-key-2,
+.gem-c-govspeak .mc-chart .mc-tr .mc-th.mc-key-2 {
+    border-left-color: #28a197
+}
+
+.govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-3,
+.gem-c-govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-3 {
+    background-color: #801650
+}
+
+.govspeak .mc-chart .mc-tr .mc-th.mc-key-3,
+.gem-c-govspeak .mc-chart .mc-tr .mc-th.mc-key-3 {
+    border-left-color: #801650
+}
+
+.govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-4,
+.gem-c-govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-4 {
+    background-color: #f46a25
+}
+
+.govspeak .mc-chart .mc-tr .mc-th.mc-key-4,
+.gem-c-govspeak .mc-chart .mc-tr .mc-th.mc-key-4 {
+    border-left-color: #f46a25
+}
+
+.govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-5,
+.gem-c-govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-5 {
+    background-color: #3d3d3d
+}
+
+.govspeak .mc-chart .mc-tr .mc-th.mc-key-5,
+.gem-c-govspeak .mc-chart .mc-tr .mc-th.mc-key-5 {
+    border-left-color: #3d3d3d
+}
+
+.govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-6,
+.gem-c-govspeak .mc-chart .mc-tr .mc-td.mc-bar-cell.mc-bar-6 {
+    background-color: #a285d1
+}
+
+.govspeak .mc-chart .mc-tr .mc-th.mc-key-6,
+.gem-c-govspeak .mc-chart .mc-tr .mc-th.mc-key-6 {
+    border-left-color: #a285d1
+}
+
+.govspeak .mc-chart .mc-td,
+.govspeak .mc-chart .mc-th,
+.gem-c-govspeak .mc-chart .mc-td,
+.gem-c-govspeak .mc-chart .mc-th {
+    padding: 0;
+    padding-right: 5px;
+    margin-right: 1px;
+    border: 0 solid
+}
+
+.govspeak .mc-chart .mc-td.mc-bar-cell,
+.govspeak .mc-chart .mc-th.mc-bar-cell,
+.gem-c-govspeak .mc-chart .mc-td.mc-bar-cell,
+.gem-c-govspeak .mc-chart .mc-th.mc-bar-cell {
+    display: block;
+    background-color: #0b0c0c;
+    text-align: left;
+    padding: 8px 0;
+    margin-bottom: 1px;
+    color: #fff;
+    text-indent: 4px;
+    line-height: 1.5
+}
+
+.govspeak .mc-chart .mc-bar-outdented span,
+.gem-c-govspeak .mc-chart .mc-bar-outdented span {
+    color: #0b0c0c
+}
+
+.govspeak .mc-chart caption,
+.gem-c-govspeak .mc-chart caption {
+    caption-side: top
+}
+
+.govspeak .mc-chart .mc-td.mc-key-cell,
+.gem-c-govspeak .mc-chart .mc-td.mc-key-cell {
+    width: 40%;
+    text-indent: 26px;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.govspeak .mc-chart.mc-outdented .mc-tr .mc-bar-cell,
+.gem-c-govspeak .mc-chart.mc-outdented .mc-tr .mc-bar-cell {
+    color: #0b0c0c
+}
+
+.govspeak .mc-chart.mc-outdented .mc-tr .mc-bar-negative,
+.gem-c-govspeak .mc-chart.mc-outdented .mc-tr .mc-bar-negative {
+    text-align: left
+}
+
+.govspeak .mc-chart.mc-negative .mc-td.mc-key-cell,
+.gem-c-govspeak .mc-chart.mc-negative .mc-td.mc-key-cell {
+    padding-right: 25px
+}
+

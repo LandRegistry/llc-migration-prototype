@@ -1,3 +1,4 @@
 {
-  "serviceName": "Service name goes here"
+  "serviceName": "Migration status of local authorities",
+  "useLogging": "true"
 }
